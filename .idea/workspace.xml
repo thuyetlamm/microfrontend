@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/checkout/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/components/link/link-transition.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/utils/sleep.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/checkout/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/components/progress-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/components/progress-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/inspire/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inspire/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/inspire/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inspire/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/library.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +43,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bmloukas/Documents/New/micro-frontends/packages/eslint-config",
+    "last_opened_file_path": "/Users/loukas/Documents/Learn/microfrontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,7 +51,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/bmloukas/Documents/New/micro-frontends/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,7 +69,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
       </set>
     </attachedChunks>
   </component>
@@ -103,6 +90,7 @@
       <workItem from="1726733788504" duration="375000" />
       <workItem from="1726734170911" duration="441000" />
       <workItem from="1726734620258" duration="2652000" />
+      <workItem from="1726760083060" duration="98000" />
     </task>
     <servers />
   </component>

@@ -15,6 +15,29 @@ const remotes = (isServer) => {
 
 const nextConfig = {
   reactStrictMode: true,
+    // CORS configuration
+    async headers() {
+        return [
+            {
+                // Apply these headers to all routes in the application
+                source: "/(.*)",
+                headers: [
+                    {
+                        key: "Access-Control-Allow-Origin",
+                        value: "*", // Allow access from all origins
+                    },
+                    {
+                        key: "Access-Control-Allow-Methods",
+                        value: "GET, POST, PUT, DELETE, PATCH, OPTIONS", // Allowed HTTP methods
+                    },
+                    {
+                        key: "Access-Control-Allow-Headers",
+                        value: "X-Requested-With, Content-Type, Authorization", // Allowed headers
+                    },
+                ],
+            },
+        ];
+    },
   images: {
     remotePatterns: [
       {
