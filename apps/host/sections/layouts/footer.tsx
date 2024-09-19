@@ -15,14 +15,14 @@ export default function Footer() {
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-              Farhoud Shapouran
+              Lam Nguyen
             </a>
             .
           </p>
           <p>
             The source code is available on{" "}
             <a
-              href="https://github.com/farhoudshapouran/micro-frontends"
+              href="https://github.com/thuyetlamm/micro-frontends"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
