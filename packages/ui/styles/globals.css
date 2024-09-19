@@ -89,5 +89,14 @@
 
 #nprogress .bar {
   background: theme("colors.blue.600");
-  @apply fixed top-0 left-0 w-full h-0.5 z-50;
+  @apply fixed top-0 left-0 w-full h-1 z-50;
+}
+.page_entered_active {
+  opacity: 0;
+  background: rgba(255, 255, 255, .8);
+  filter: blur(12px);
+  transform: translateY(40px);
+  -ms-filter:blur(12px);
+  -webkit-filter:blur(12px);
+
 }

@@ -5,13 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/checkout/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/link/link-transition.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/utils/sleep.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/components/progress-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/components/progress-bar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/inspire/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inspire/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/library.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,19 +43,25 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2mH1rcObWUKT3Qe7Jr7ZLfaRzO2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bmloukas/Documents/New/micro-frontends/apps/checkout",
+    "last_opened_file_path": "/Users/bmloukas/Documents/New/micro-frontends/packages/eslint-config",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "ts.external.directory.path": "/Users/bmloukas/Documents/New/micro-frontends/node_modules/typescript/lib",
@@ -41,9 +70,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/eslint-config" />
       <recent name="$PROJECT_DIR$/apps/checkout" />
       <recent name="$PROJECT_DIR$/apps/host" />
       <recent name="$PROJECT_DIR$/apps/product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/utils" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -62,11 +95,21 @@
       <option name="presentableId" value="Default" />
       <updated>1726718887744</updated>
       <workItem from="1726718889157" duration="1020000" />
-      <workItem from="1726719936760" duration="4850000" />
+      <workItem from="1726719936760" duration="11062000" />
+      <workItem from="1726731063618" duration="142000" />
+      <workItem from="1726731211449" duration="261000" />
+      <workItem from="1726731480919" duration="746000" />
+      <workItem from="1726732234119" duration="1546000" />
+      <workItem from="1726733788504" duration="375000" />
+      <workItem from="1726734170911" duration="441000" />
+      <workItem from="1726734620258" duration="2652000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

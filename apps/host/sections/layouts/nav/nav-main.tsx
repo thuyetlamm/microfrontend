@@ -1,8 +1,8 @@
-import Link from "next/link";
 // routes
 import { paths } from "@repo/utils/routes/paths";
 // components
 import { Logo } from "@repo/ui/components/logo";
+import LinkTransition from "@repo/ui/components/link/link-transition.tsx";
 
 // ----------------------------------------------------------------------
 
@@ -13,18 +13,18 @@ export function NavMain() {
         <Logo />
       </div>
       <nav className="flex items-center space-x-6 text-sm font-medium ml-1">
-        <Link
+        <LinkTransition
           href={paths.docs.root}
           className="transition-colors hover:text-foreground/80"
         >
           Docs
-        </Link>
-        <Link
+        </LinkTransition>
+        <LinkTransition
           href={paths.product.root}
           className="transition-colors hover:text-foreground/80"
         >
-          Demo
-        </Link>
+          Products
+        </LinkTransition>
       </nav>
     </div>
   );
