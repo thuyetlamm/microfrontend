@@ -3,7 +3,7 @@ const URLS_TO_CACHE = [
     '/', // cache the root page
     '/offline', // cache the offline page
     '/favicon.ico',
-    '/_next/static/css', // cache Next.js static css files
+    '/_next/static/css/*', // cache Next.js static css files
 ];
 
 // Install Service Worker and Cache Resources
