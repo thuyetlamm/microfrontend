@@ -4,16 +4,25 @@ const URLS_TO_CACHE = [
     '/offline', // cache the offline page
     '/favicon.ico',
     '/_next/static/*', // cache Next.js static files
-    '/static/*', // cache custom static assets
 ];
 
 // Install Service Worker and Cache Resources
 const installEvent = () => {
     self.addEventListener('install', (event) => {
         event.waitUntil(
-            caches.open(CACHE_NAME).then((cache) => {
-                console.log('Opened cache',cache);
-                return cache.addAll(URLS_TO_CACHE);
+            caches.open(CACHE_NAME).then(async (cache) => {
+                const fetchPromises = URLS_TO_CACHE.map(async (url) => {
+                    try {
+                        const response = await fetch(url);
+                        if (!response.ok) {
+                            throw new Error(`Request for ${url} failed with status ${response.status}`);
+                        }
+                        await cache.put(url, response); // Manually cache each response
+                    } catch (error) {
+                        console.error(`Failed to cache ${url}:`, error);
+                    }
+                });
+                return Promise.all(fetchPromises);
             })
         );
     });
