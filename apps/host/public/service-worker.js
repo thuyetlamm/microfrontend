@@ -57,8 +57,9 @@ const fetchEvent = () => {
     self.addEventListener('fetch', (e) => {
         e.respondWith(
             cacheClone(e)
-                .catch(() => caches.match(e.request))
                 .then((res) => res)
+                .catch(() => caches.match(e.request))
+
         )
     })
 }
