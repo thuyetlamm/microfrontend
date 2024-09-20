@@ -43,25 +43,24 @@ activeEvent()
 
 // Intercept network requests and serve cached resources if available
 
-const cacheClone = async (e) => {
-    const res = await fetch(e.request)
-    const resClone = res.clone()
-
-    const cache = await caches.open(CACHE_NAME)
-    await cache.put(e.request, resClone)
-    return res
-}
-
-
 const fetchEvent = () => {
-    self.addEventListener('fetch', (e) => {
-        e.respondWith(
-            cacheClone(e)
-                .then((res) => res)
-                .catch(() => caches.match(e.request))
-
-        )
-    })
+    self.addEventListener('fetch', (event) => {
+        event.respondWith(
+            caches.match(event.request).then((cachedResponse) => {
+                // Serve the cached resource if it exists, otherwise fetch from network
+                return cachedResponse || fetch(event.request).then((networkResponse) => {
+                    // Cache fetched resources dynamically
+                    return caches.open(CACHE_NAME).then((cache) => {
+                        cache.put(event.request, networkResponse.clone());
+                        return networkResponse;
+                    });
+                }).catch(() => {
+                    // If offline and the requested resource is not in the cache, return the offline page
+                    return caches.match('/offline');
+                });
+            })
+        );
+    });
 }
 
 fetchEvent()
