@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="feat(Offline View) : Handle offline view via sw">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/host/public/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/public/service-worker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <workItem from="1726733788504" duration="375000" />
       <workItem from="1726734170911" duration="441000" />
       <workItem from="1726734620258" duration="2652000" />
-      <workItem from="1726805250650" duration="3392000" />
+      <workItem from="1726805250650" duration="4106000" />
     </task>
     <servers />
   </component>
