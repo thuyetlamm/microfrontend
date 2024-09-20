@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="feat(Offline View) : Handle offline view via sw">
+      <change afterPath="$PROJECT_DIR$/apps/host/hooks/useOnline.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/public/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/public/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <workItem from="1726733788504" duration="375000" />
       <workItem from="1726734170911" duration="441000" />
       <workItem from="1726734620258" duration="2652000" />
-      <workItem from="1726805250650" duration="5918000" />
+      <workItem from="1726805250650" duration="7590000" />
     </task>
     <servers />
   </component>
