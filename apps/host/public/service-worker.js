@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v1';
+const CACHE_NAME = 'micro_service_v1';
 const URLS_TO_CACHE = [
     '/', // cache the root page
     '/offline', // cache the offline page
@@ -10,19 +10,8 @@ const URLS_TO_CACHE = [
 const installEvent = () => {
     self.addEventListener('install', (event) => {
         event.waitUntil(
-            caches.open(CACHE_NAME).then(async (cache) => {
-                const fetchPromises = URLS_TO_CACHE.map(async (url) => {
-                    try {
-                        const response = await fetch(url);
-                        if (!response.ok) {
-                            throw new Error(`Request for ${url} failed with status ${response.status}`);
-                        }
-                        await cache.put(url, response); // Manually cache each response
-                    } catch (error) {
-                        console.error(`Failed to cache ${url}:`, error);
-                    }
-                });
-                return Promise.all(fetchPromises);
+            caches.open(CACHE_NAME).then((cache) => {
+                return cache.addAll(URLS_TO_CACHE);
             })
         );
     });
