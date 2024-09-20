@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="feat(Offline View) : Handle offline view via sw">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/hooks/useRegisterSW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/hooks/useRegisterSW.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/host/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/public/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/next.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

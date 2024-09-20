@@ -17,7 +17,6 @@ import {useEffect} from "react";
 // ----------------------------------------------------------------------
 
 export default function App({ Component, pageProps }: AppProps) {
-  useEffect(() => {
     useEffect(() => {
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -32,7 +31,6 @@ export default function App({ Component, pageProps }: AppProps) {
         });
       }
     }, [])
-  }, []);
   return (
     <ReduxProvider>
       <ThemeProvider>
