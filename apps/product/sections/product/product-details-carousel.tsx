@@ -67,6 +67,7 @@ export default function ProductDetailsCarousel({ product }: Props) {
     src: img,
   }));
 
+
   const renderLargeImg = (
     <div className="relative">
       <Carousel
@@ -80,7 +81,7 @@ export default function ProductDetailsCarousel({ product }: Props) {
         <CarouselContent>
           {slides.map((slide, index) => (
             <CarouselItem key={index} className="p-0">
-              <AspectRatio ratio={1 / 1} className="bg-muted">
+              <AspectRatio ratio={1} className="bg-muted">
                 <Image
                   alt={slide.src}
                   src={slide.src + "?w=800"}

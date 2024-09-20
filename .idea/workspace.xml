@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/checkout/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/components/link/link-transition.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/utils/sleep.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/host/hooks/useRegisterSW.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/host/pages/offline/_component/offline-section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/host/pages/offline/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/host/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/checkout/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/components/progress-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/components/progress-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/inspire/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inspire/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/library.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/sections/product/product-details-carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/sections/product/product-details-carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/next.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bmloukas/Documents/New/micro-frontends/packages/eslint-config",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/bmloukas/Documents/New/micro-frontends/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bmloukas/Documents/New/micro-frontends/packages/eslint-config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bmloukas/Documents/New/micro-frontends/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/eslint-config" />
@@ -111,5 +102,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/apps/product/sections/product/view/product-shop-details-view.tsx</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
