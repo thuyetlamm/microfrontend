@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/host/hooks/useRegisterSW.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/host/pages/offline/_component/offline-section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/host/pages/offline/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/host/service-worker.js" afterDir="false" />
+    <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="feat(Offline View) : Handle offline view via sw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/hooks/useRegisterSW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/hooks/useRegisterSW.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/host/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/sections/product/product-details-carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/sections/product/product-details-carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/public/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/eslint-config/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/next.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +64,7 @@
       <recent name="$PROJECT_DIR$/apps/product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/host/public" />
       <recent name="$PROJECT_DIR$/packages/utils" />
     </key>
   </component>
@@ -102,6 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat(Offline View) : Handle offline view via sw" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Offline View) : Handle offline view via sw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -109,7 +109,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/apps/product/sections/product/view/product-shop-details-view.tsx</url>
           <line>14</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
