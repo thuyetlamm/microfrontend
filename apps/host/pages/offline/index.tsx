@@ -6,7 +6,7 @@ interface IndexProps {
 
 const Offline = ({} :IndexProps) => {
 return (
-<div className={cn('w-full,h-screen')}>
+<div className={cn('w-full h-screen')}>
     <OfflineSection />
 </div>
 )

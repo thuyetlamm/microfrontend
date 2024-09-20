@@ -12,25 +12,11 @@ import MainLayout from "@/sections/layouts/main";
 // components
 import ProgressBar from "@/components/progress-bar";
 import {useRegisterSW} from "@/hooks/useRegisterSW.ts";
-import {useEffect} from "react";
 
 // ----------------------------------------------------------------------
 
 export default function App({ Component, pageProps }: AppProps) {
-    useEffect(() => {
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker
-              .register('/service-worker.js',)
-              .then((registration) => {
-                console.log('Service Worker registered: ', registration);
-              })
-              .catch((registrationError) => {
-                console.log('Service Worker registration failed: ', registrationError);
-              });
-        });
-      }
-    }, [])
+    useRegisterSW()
   return (
     <ReduxProvider>
       <ThemeProvider>

@@ -1,5 +1,6 @@
 const CACHE_NAME = 'v1';
 const URLS_TO_CACHE = [
+    '/', // cache the root page
     '/offline', // cache the offline page
     '/favicon.ico',
     '/_next/static/*', // cache Next.js static files
@@ -11,6 +12,7 @@ const installEvent = () => {
     self.addEventListener('install', (event) => {
         event.waitUntil(
             caches.open(CACHE_NAME).then((cache) => {
+                console.log('Opened cache',cache);
                 return cache.addAll(URLS_TO_CACHE);
             })
         );
