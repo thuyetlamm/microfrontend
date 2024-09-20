@@ -1,6 +1,5 @@
 const CACHE_NAME = 'micro_service_v1';
 const URLS_TO_CACHE = [
-    '/', // cache the root page
     '/offline', // cache the offline page
     '/favicon.ico',
     // '/_next/static/*', // cache Next.js static css files

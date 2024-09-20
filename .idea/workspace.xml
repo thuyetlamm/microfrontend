@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fae8ff31-48c6-4951-ac0f-d86759c4135b" name="Changes" comment="feat(Offline View) : Handle offline view via sw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/pages/offline/_component/offline-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/pages/offline/_component/offline-section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/host/public/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/public/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bmloukas/Documents/New/micro-frontends",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/bmloukas/Documents/New/micro-frontends/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bmloukas/Documents/New/micro-frontends&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bmloukas/Documents/New/micro-frontends/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/eslint-config" />
@@ -89,7 +91,8 @@
       <workItem from="1726733788504" duration="375000" />
       <workItem from="1726734170911" duration="441000" />
       <workItem from="1726734620258" duration="2652000" />
-      <workItem from="1726805250650" duration="8696000" />
+      <workItem from="1726805250650" duration="8851000" />
+      <workItem from="1726814250980" duration="1281000" />
     </task>
     <servers />
   </component>
@@ -98,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="up" />
     <MESSAGE value="feat(Offline View) : Handle offline view via sw" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(Offline View) : Handle offline view via sw" />
   </component>
